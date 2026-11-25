@@ -22,7 +22,6 @@ const KEYS: Record<string, Command> = {
   d: { kind: "move", direction: "right" },
   r: { kind: "restart" },
 };
-
 const keyboard: Controller = {
   label: "Keyboard",
   attach(session) {
